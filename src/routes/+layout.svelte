@@ -1,5 +1,9 @@
 <script>
-	import '../app.postcss';
+	import '../app.postcss'
 </script>
 
-<slot />
+<div class="min-h-screen bg-slate-950 px-48 py-4 text-white">
+	<main>
+		<slot />
+	</main>
+</div>
